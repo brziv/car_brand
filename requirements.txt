@@ -1,0 +1,11 @@
+torch
+torchvision
+streamlit
+Pillow
+tqdm
+scikit-learn
+matplotlib
+seaborn
+onnxruntime
+opencv-python
+gradio

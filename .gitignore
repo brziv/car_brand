@@ -1,8 +1,8 @@
 # folders
 __pycache__/
 images/
-br_results/
-cl_results/
+images_by_color/
+results/
 
 # files
 *.onnx

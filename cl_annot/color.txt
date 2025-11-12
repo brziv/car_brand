@@ -1,9 +1,0 @@
-white
-black
-silver/gray
-red
-brown
-orange
-yellow
-blue
-green
