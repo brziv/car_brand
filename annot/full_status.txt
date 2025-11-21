@@ -187,7 +187,7 @@
 0115542_0006324.jpg 1 1 no
 0115542_0006336.jpg 1 1 no
 0115542_0006360.jpg 1 1 no
-0115542_0006384.jpg 1 1 no
+0115542_0006384.jpg 1 1 yes
 0115744_0007176.jpg 1 1 no
 0115744_0007188.jpg 1 1 no
 0115744_0007200.jpg 1 1 no
@@ -279,7 +279,7 @@
 0124737_0032112.jpg 1 1 no
 0124737_0032160.jpg 1 1 yes
 0124737_0032184.jpg 1 1 no
-0124927_0032424.jpg 1 1 no
+0124927_0032424.jpg 1 1 yes
 0124927_0032448.jpg 1 1 no
 0124927_0032472.jpg 1 1 no
 0124927_0032496.jpg 1 1 no
@@ -464,7 +464,7 @@
 0142555_0078936.jpg 1 2 no
 0142555_0078960.jpg 1 1 no
 0142555_0078972.jpg 1 1 no
-0142555_0078984.jpg 1 1 no
+0142555_0078984.jpg 1 9 yes
 0142656_0079452.jpg 1 3 no
 0142656_0079464.jpg 1 3 yes
 0142656_0079476.jpg 1 3 no
@@ -538,7 +538,7 @@
 0092348_0008256.jpg 12 0 no
 0092348_0008268.jpg 12 0 no
 0092348_0008280.jpg 12 0 no
-0092386_0008460.jpg 12 1 no
+0092386_0008460.jpg 12 1 yes
 0092386_0008472.jpg 12 1 no
 0092386_0008484.jpg 12 1 no
 0092386_0008496.jpg 12 1 no
@@ -802,7 +802,7 @@
 0109489_0076980.jpg 12 0 no
 0109533_0076956.jpg 12 2 no
 0109533_0076980.jpg 12 2 no
-0109533_0077016.jpg 12 1 no
+0109533_0077016.jpg 12 1 yes
 0109533_0077040.jpg 12 1 yes
 0109533_0077064.jpg 12 1 no
 0109533_0077088.jpg 12 1 no
@@ -900,7 +900,7 @@
 0107984_0070260.jpg 16 1 no
 0107984_0070272.jpg 16 1 no
 0109509_0076896.jpg 16 1 no
-0109509_0076920.jpg 16 1 no
+0109509_0076920.jpg 16 2 yes
 0109509_0076956.jpg 16 1 no
 0109509_0076992.jpg 16 1 no
 0109509_0077028.jpg 16 1 no
@@ -991,7 +991,7 @@
 0092465_0008832.jpg 11 4 no
 0092554_0009180.jpg 0 3 yes
 0094057_0016260.jpg 11 7 yes
-0094057_0016284.jpg 11 1 no
+0094057_0016284.jpg 11 7 yes
 0094057_0016308.jpg 11 1 no
 0098680_0034704.jpg 11 0 no
 0098680_0034716.jpg 11 0 no
@@ -1015,7 +1015,7 @@
 0104634_0056496.jpg 11 0 no
 0107097_0066480.jpg 11 1 no
 0107097_0066492.jpg 11 1 yes
-0107097_0066504.jpg 11 1 no
+0107097_0066504.jpg 11 1 yes
 0107133_0066708.jpg 11 2 no
 0107133_0066720.jpg 11 2 no
 0107133_0066732.jpg 11 2 no
@@ -1052,7 +1052,7 @@
 0111085_0081936.jpg 11 1 no
 0111310_0082740.jpg 11 1 no
 0111310_0082764.jpg 11 1 no
-0111364_0082848.jpg 11 1 no
+0111364_0082848.jpg 11 1 yes
 0111364_0082872.jpg 11 1 no
 0111364_0082896.jpg 11 1 no
 0111364_0082932.jpg 11 1 no
@@ -1082,7 +1082,7 @@
 0096699_0027000.jpg 19 0 no
 0097369_0029856.jpg 2 1 no
 0101831_0046428.jpg 19 1 no
-0101831_0046464.jpg 19 1 no
+0101831_0046464.jpg 19 1 yes
 0101831_0046488.jpg 19 1 no
 0101831_0046524.jpg 19 1 no
 0101831_0046560.jpg 19 1 no
@@ -1142,7 +1142,7 @@
 0114489_0002136.jpg 5 4 no
 0114489_0002148.jpg 5 5 yes
 0114489_0002160.jpg 5 4 no
-0114489_0002172.jpg 5 4 no
+0114489_0002172.jpg 5 5 yes
 0114489_0002184.jpg 5 5 yes
 0114498_0002184.jpg 5 4 no
 0114498_0002196.jpg 5 1 no
@@ -1298,7 +1298,7 @@
 0118274_0014688.jpg 5 4 no
 0118274_0014712.jpg 5 4 no
 0118274_0014736.jpg 5 4 no
-0118274_0014760.jpg 5 4 no
+0118274_0014760.jpg 5 5 yes
 0118274_0014784.jpg 5 4 no
 0118480_0015096.jpg 5 1 no
 0118480_0015168.jpg 5 1 no
@@ -1459,7 +1459,7 @@
 0122659_0027756.jpg 5 2 yes
 0122659_0027768.jpg 5 1 no
 0122659_0027780.jpg 5 1 no
-0122659_0027804.jpg 5 1 no
+0122659_0027804.jpg 5 2 yes
 0122659_0027828.jpg 5 1 no
 0122683_0027840.jpg 5 1 no
 0122683_0027864.jpg 5 1 no
@@ -1472,12 +1472,12 @@
 0122821_0028500.jpg 5 0 no
 0123024_0028512.jpg 5 4 no
 0123024_0028536.jpg 5 4 no
-0123024_0028560.jpg 5 4 no
+0123024_0028560.jpg 5 5 yes
 0123024_0028608.jpg 5 4 no
 0123426_0029412.jpg 5 4 no
 0123426_0029424.jpg 5 4 no
-0123426_0029436.jpg 5 4 no
-0123426_0029448.jpg 5 4 no
+0123426_0029436.jpg 5 5 yes
+0123426_0029448.jpg 5 5 yes
 0123544_0029820.jpg 5 4 no
 0123544_0029832.jpg 5 5 yes
 0123544_0029844.jpg 5 4 no
@@ -1487,7 +1487,7 @@
 0123703_0030336.jpg 5 5 yes
 0123703_0030360.jpg 5 4 no
 0123703_0030384.jpg 5 4 no
-0123703_0030408.jpg 5 4 no
+0123703_0030408.jpg 5 5 yes
 0123703_0030444.jpg 5 4 no
 0124093_0031020.jpg 5 0 no
 0124093_0031032.jpg 5 0 no
@@ -1499,7 +1499,7 @@
 0124119_0031092.jpg 5 4 no
 0124119_0031116.jpg 5 4 no
 0124119_0031140.jpg 5 4 no
-0124320_0031488.jpg 5 4 no
+0124320_0031488.jpg 5 4 yes
 0124320_0031500.jpg 5 4 no
 0124320_0031512.jpg 5 1 no
 0124420_0031668.jpg 5 1 no
@@ -1648,7 +1648,7 @@
 0131547_0051600.jpg 5 1 no
 0131547_0051612.jpg 5 1 no
 0131780_0052164.jpg 5 4 no
-0131780_0052176.jpg 5 4 no
+0131780_0052176.jpg 5 5 yes
 0131780_0052188.jpg 5 4 no
 0131780_0052200.jpg 5 4 no
 0131780_0052212.jpg 5 4 no
@@ -1747,7 +1747,7 @@
 0136132_0063372.jpg 5 4 no
 0136132_0063384.jpg 5 4 no
 0136212_0063600.jpg 5 4 no
-0136212_0063612.jpg 5 4 no
+0136212_0063612.jpg 5 5 yes
 0136212_0063624.jpg 5 4 no
 0136212_0063636.jpg 5 4 no
 0136212_0063660.jpg 5 4 no
@@ -1871,7 +1871,7 @@
 0141951_0077412.jpg 5 0 no
 0141951_0077424.jpg 5 0 no
 0142034_0077580.jpg 5 4 no
-0142034_0077604.jpg 5 4 no
+0142034_0077604.jpg 5 5 yes
 0142034_0077628.jpg 5 4 no
 0142034_0077652.jpg 5 5 yes
 0142034_0077676.jpg 5 4 no
@@ -2073,7 +2073,7 @@
 0111812_0084768.jpg 5 9 yes
 0111812_0084780.jpg 5 1 no
 0111812_0084792.jpg 5 1 no
-0111812_0084804.jpg 5 1 no
+0111812_0084804.jpg 5 9 yes
 0111904_0085080.jpg 5 3 no
 0111904_0085092.jpg 5 3 no
 0111904_0085104.jpg 5 3 no
@@ -2099,7 +2099,7 @@
 0112203_0086064.jpg 5 4 no
 0112203_0086076.jpg 5 4 no
 0112203_0086100.jpg 5 4 no
-0112203_0086124.jpg 5 4 no
+0112203_0086124.jpg 5 5 yes
 0112203_0086148.jpg 5 5 yes
 0112326_0086328.jpg 5 4 no
 0112326_0086352.jpg 5 4 no
@@ -2135,7 +2135,7 @@
 0113298_0088716.jpg 5 4 no
 0113298_0088728.jpg 5 4 no
 0113298_0088740.jpg 5 5 yes
-0113298_0088752.jpg 5 4 no
+0113298_0088752.jpg 5 5 yes
 0113359_0089040.jpg 5 4 no
 0113359_0089052.jpg 5 4 no
 0113359_0089064.jpg 5 4 no
@@ -2150,7 +2150,7 @@
 0094678_0019236.jpg 18 0 no
 0094678_0019248.jpg 18 0 no
 0094678_0019260.jpg 18 0 no
-0105058_0058068.jpg 18 1 no
+0105058_0058068.jpg 18 1 yes
 0105058_0058092.jpg 18 1 no
 0105058_0058104.jpg 18 1 no
 0105058_0058116.jpg 18 1 no
@@ -2177,7 +2177,7 @@
 0098584_0034104.jpg 1 1 no
 0098584_0034692.jpg 1 1 no
 0099497_0037248.jpg 16 2 no
-0100573_0042012.jpg 7 4 no
+0100573_0042012.jpg 7 4 yes
 0100573_0042024.jpg 7 4 no
 0100573_0042048.jpg 7 4 no
 0100573_0042072.jpg 7 4 no
@@ -2210,7 +2210,7 @@
 0106920_0065556.jpg 7 0 no
 0113306_0088812.jpg 7 1 no
 0113306_0088824.jpg 7 1 no
-0113306_0088836.jpg 7 1 no
+0113306_0088836.jpg 7 1 yes
 0113306_0088860.jpg 7 1 no
 0113306_0088884.jpg 7 1 no
 0096722_0027060.jpg 10 8 yes
@@ -2412,7 +2412,7 @@
 0123295_0029040.jpg 15 3 no
 0123295_0029052.jpg 15 3 no
 0123295_0029064.jpg 15 3 no
-0124715_0032064.jpg 15 1 no
+0124715_0032064.jpg 15 1 yes
 0124715_0032088.jpg 15 1 no
 0124715_0032112.jpg 15 1 no
 0124715_0032136.jpg 15 1 no
@@ -2745,7 +2745,7 @@
 0131193_0050520.jpg 3 1 no
 0131193_0050532.jpg 3 1 no
 0131193_0050544.jpg 3 1 no
-0131654_0051960.jpg 3 1 no
+0131654_0051960.jpg 3 0 yes
 0131683_0051984.jpg 3 1 no
 0131960_0052500.jpg 3 0 no
 0131960_0052512.jpg 3 1 no
@@ -2915,7 +2915,7 @@
 0114684_0003144.jpg 16 1 no
 0114684_0003156.jpg 16 1 no
 0116628_0010080.jpg 16 1 no
-0116628_0010092.jpg 16 1 no
+0116628_0010092.jpg 16 1 yes
 0116628_0010104.jpg 16 1 no
 0116628_0010128.jpg 16 1 no
 0116628_0010152.jpg 16 1 no
@@ -2932,7 +2932,7 @@
 0118759_0016452.jpg 16 0 no
 0118759_0016476.jpg 16 0 no
 0118759_0016500.jpg 16 0 no
-0123113_0028620.jpg 16 1 no
+0123113_0028620.jpg 16 1 yes
 0123113_0028632.jpg 16 1 no
 0123113_0028656.jpg 16 1 no
 0123113_0028680.jpg 16 1 no
@@ -3133,8 +3133,8 @@
 0132828_0055080.jpg 6 1 no
 0132828_0055152.jpg 6 2 no
 0132828_0055188.jpg 6 1 no
-0132828_0055464.jpg 6 1 no
-0132828_0055500.jpg 6 1 no
+0132828_0055464.jpg 6 1 yes
+0132828_0055500.jpg 6 1 yes
 0133200_0055668.jpg 6 0 no
 0133200_0055680.jpg 6 0 no
 0133200_0055692.jpg 6 0 no
@@ -3408,7 +3408,7 @@
 0128228_0041724.jpg 12 1 no
 0128228_0041748.jpg 12 1 no
 0128228_0041772.jpg 12 1 no
-0129012_0044364.jpg 12 1 no
+0129012_0044364.jpg 12 1 yes
 0129012_0044376.jpg 12 1 no
 0129012_0044388.jpg 12 1 no
 0129120_0044664.jpg 12 0 no
@@ -3744,7 +3744,7 @@
 0131904_0052404.jpg 12 3 no
 0132267_0053676.jpg 11 1 no
 0134448_0059124.jpg 11 1 no
-0134448_0059136.jpg 11 1 no
+0134448_0059136.jpg 11 1 yes
 0134448_0059148.jpg 11 1 no
 0134448_0059160.jpg 11 1 no
 0134448_0059184.jpg 11 1 no
@@ -3879,7 +3879,7 @@
 0119394_0018336.jpg 4 3 no
 0120476_0021588.jpg 4 1 no
 0120476_0021600.jpg 4 1 no
-0120476_0021612.jpg 4 1 no
+0120476_0021612.jpg 4 1 yes
 0120476_0021636.jpg 4 1 no
 0120476_0021660.jpg 4 1 no
 0120919_0022620.jpg 4 0 no
@@ -4265,7 +4265,7 @@
 0141940_0077388.jpg 0 1 no
 0141940_0077412.jpg 0 1 no
 0141940_0077436.jpg 0 1 no
-0141940_0077460.jpg 0 1 no
+0141940_0077460.jpg 0 1 yes
 0142006_0077532.jpg 0 1 no
 0142006_0077556.jpg 0 1 no
 0142006_0077580.jpg 0 1 no
@@ -4690,7 +4690,7 @@
 0003464_0015660.jpg 2 1 no
 0003464_0015672.jpg 2 2 no
 0003464_0015684.jpg 2 1 no
-0003479_0015684.jpg 2 1 no
+0003479_0015684.jpg 2 9 yes
 0003479_0015696.jpg 2 1 no
 0003479_0015720.jpg 2 1 no
 0003479_0015744.jpg 2 1 no
@@ -4849,7 +4849,7 @@
 0005736_0027012.jpg 2 4 no
 0005736_0027024.jpg 2 4 no
 0005787_0027216.jpg 2 1 no
-0005787_0027228.jpg 2 1 no
+0005787_0027228.jpg 2 1 yes
 0005787_0027240.jpg 2 1 no
 0005787_0027252.jpg 2 1 no
 0005787_0027264.jpg 2 1 no
@@ -5387,7 +5387,7 @@
 0013694_0062448.jpg 2 4 no
 0013694_0062460.jpg 2 4 no
 0013694_0062472.jpg 2 4 no
-0013694_0062484.jpg 2 4 no
+0013694_0062484.jpg 2 0 yes
 0013904_0063168.jpg 2 0 yes
 0013904_0063180.jpg 2 0 yes
 0013904_0063192.jpg 2 0 yes
@@ -5968,7 +5968,7 @@
 0050756_0045108.jpg 0 1 no
 0050756_0045132.jpg 0 1 no
 0050761_0045096.jpg 0 1 no
-0050761_0045108.jpg 0 1 no
+0050761_0045108.jpg 0 1 yes
 0050761_0045120.jpg 0 1 no
 0050761_0045132.jpg 0 1 no
 0050761_0045144.jpg 0 2 no
@@ -6021,7 +6021,7 @@
 0051264_0047748.jpg 0 0 no
 0051311_0047988.jpg 0 1 no
 0051311_0048000.jpg 0 2 no
-0051311_0048012.jpg 0 1 no
+0051311_0048012.jpg 0 2 yes
 0051311_0048024.jpg 0 2 no
 0051326_0048060.jpg 0 1 no
 0051326_0048072.jpg 0 2 no
@@ -6201,7 +6201,7 @@
 0054475_0064392.jpg 0 4 no
 0054475_0064404.jpg 0 4 no
 0054475_0064416.jpg 0 4 no
-0054475_0064428.jpg 0 4 no
+0054475_0064428.jpg 0 0 yes
 0054475_0064440.jpg 0 2 no
 0054538_0064584.jpg 0 0 no
 0054538_0064596.jpg 0 0 no
@@ -6378,7 +6378,7 @@
 0056940_0077328.jpg 0 1 no
 0056940_0077340.jpg 0 2 no
 0056940_0077364.jpg 0 2 no
-0057032_0077868.jpg 0 1 no
+0057032_0077868.jpg 0 1 yes
 0057032_0077880.jpg 0 1 no
 0057032_0077892.jpg 0 1 no
 0057032_0077904.jpg 0 1 no
@@ -6523,7 +6523,7 @@
 0005279_0024732.jpg 12 1 no
 0005279_0024756.jpg 12 1 no
 0005279_0024780.jpg 12 1 no
-0005279_0024804.jpg 12 1 no
+0005279_0024804.jpg 12 1 yes
 0005284_0024756.jpg 12 0 no
 0005284_0024768.jpg 12 0 no
 0005284_0024780.jpg 12 0 no
@@ -6610,7 +6610,7 @@
 0007367_0034512.jpg 12 0 no
 0007367_0034536.jpg 12 0 no
 0007929_0037020.jpg 12 1 no
-0007929_0037032.jpg 12 1 no
+0007929_0037032.jpg 12 1 yes
 0007929_0037044.jpg 12 1 no
 0007929_0037056.jpg 12 1 no
 0007929_0037080.jpg 12 1 no
@@ -6656,7 +6656,7 @@
 0009110_0042996.jpg 12 2 no
 0009173_0043236.jpg 12 1 no
 0009173_0043260.jpg 12 1 no
-0009173_0043284.jpg 12 1 no
+0009173_0043284.jpg 12 1 yes
 0009173_0043308.jpg 12 2 no
 0009173_0043332.jpg 12 2 no
 0009304_0043752.jpg 12 0 no
@@ -6798,7 +6798,7 @@
 0014926_0067188.jpg 12 0 no
 0014926_0067200.jpg 12 0 no
 0014926_0067212.jpg 12 0 no
-0015174_0068556.jpg 12 1 no
+0015174_0068556.jpg 12 1 yes
 0015174_0068568.jpg 12 1 no
 0015174_0068580.jpg 12 1 no
 0015174_0068604.jpg 12 1 no
@@ -6828,7 +6828,7 @@
 0016932_0075336.jpg 12 1 no
 0016932_0075348.jpg 12 1 no
 0017020_0075528.jpg 12 1 no
-0017020_0075552.jpg 12 1 no
+0017020_0075552.jpg 12 1 yes
 0017020_0075576.jpg 12 1 no
 0017138_0075744.jpg 12 1 no
 0017138_0075768.jpg 12 1 no
@@ -7315,9 +7315,9 @@
 0015002_0067572.jpg 3 0 no
 0015002_0067584.jpg 3 0 no
 0015002_0067596.jpg 3 0 no
-0015250_0068928.jpg 3 1 no
+0015250_0068928.jpg 3 1 yes
 0015250_0068952.jpg 3 1 no
-0015250_0068976.jpg 3 1 no
+0015250_0068976.jpg 3 1 yes
 0015250_0069000.jpg 3 1 no
 0015250_0069024.jpg 3 1 no
 0015291_0069048.jpg 3 1 no
@@ -7656,7 +7656,7 @@
 0012229_0056592.jpg 4 0 yes
 0012229_0056616.jpg 4 0 no
 0012229_0056640.jpg 4 0 no
-0012315_0056844.jpg 4 1 no
+0012315_0056844.jpg 4 1 yes
 0012315_0056856.jpg 4 1 no
 0012315_0056868.jpg 4 1 no
 0012315_0056880.jpg 4 1 no
@@ -8086,7 +8086,7 @@
 0004730_0021876.jpg 16 1 no
 0004730_0021912.jpg 16 1 yes
 0004730_0021948.jpg 16 1 no
-0004844_0022152.jpg 16 1 no
+0004844_0022152.jpg 16 1 yes
 0004844_0022164.jpg 16 1 no
 0004844_0022176.jpg 16 1 no
 0004844_0022188.jpg 16 1 no
@@ -8786,7 +8786,7 @@
 0113108_0088032.jpg 4 0 no
 0113316_0088872.jpg 4 1 no
 0113316_0088884.jpg 4 1 no
-0113316_0088896.jpg 4 1 no
+0113316_0088896.jpg 4 1 yes
 0113316_0088908.jpg 4 1 no
 0113316_0088920.jpg 4 1 no
 0113316_0088932.jpg 4 1 no
@@ -9150,7 +9150,7 @@
 0109068_0075132.jpg 9 0 no
 0109138_0075564.jpg 9 1 no
 0109138_0075588.jpg 9 1 no
-0109138_0075612.jpg 9 1 no
+0109138_0075612.jpg 9 9 yes
 0109138_0075636.jpg 9 1 no
 0109138_0075660.jpg 9 1 no
 0109331_0076248.jpg 9 2 no
@@ -9705,7 +9705,7 @@
 0147077_0089112.jpg 9 1 no
 0147077_0089148.jpg 9 1 no
 0147077_0089172.jpg 9 1 no
-0147077_0089196.jpg 9 1 no
+0147077_0089196.jpg 9 1 yes
 0147077_0089220.jpg 9 1 no
 0069232_0000012.jpg 6 1 no
 0069232_0000024.jpg 6 1 no
@@ -9886,7 +9886,7 @@
 0081223_0052500.jpg 6 0 yes
 0081609_0053520.jpg 6 1 no
 0081609_0053532.jpg 6 2 yes
-0081609_0053544.jpg 6 1 no
+0081609_0053544.jpg 6 1 yes
 0081609_0053568.jpg 6 1 no
 0081609_0053592.jpg 6 1 no
 0083247_0059604.jpg 6 2 no
@@ -9945,7 +9945,7 @@
 0087248_0076092.jpg 6 1 no
 0087327_0076524.jpg 1 2 no
 0087425_0077256.jpg 6 9 yes
-0087425_0077280.jpg 6 1 no
+0087425_0077280.jpg 6 9 yes
 0087425_0077304.jpg 6 1 no
 0087808_0078960.jpg 6 1 no
 0087808_0078984.jpg 6 1 no
@@ -10485,7 +10485,7 @@
 0074433_0022896.jpg 1 3 yes
 0074433_0022920.jpg 1 3 no
 0075483_0027948.jpg 1 1 no
-0075483_0027960.jpg 1 1 no
+0075483_0027960.jpg 1 1 yes
 0075483_0027972.jpg 1 1 no
 0075483_0027984.jpg 1 1 no
 0075483_0027996.jpg 1 1 no
@@ -10559,7 +10559,7 @@
 0082642_0057240.jpg 1 0 no
 0082642_0057252.jpg 1 0 no
 0082642_0057264.jpg 1 0 no
-0082681_0057372.jpg 1 1 no
+0082681_0057372.jpg 1 1 yes
 0082681_0057384.jpg 1 1 no
 0082681_0057408.jpg 1 1 no
 0082681_0057432.jpg 1 1 no
@@ -10695,7 +10695,7 @@ Volvo S60 back view_00044_crop_00.jpg 17 1 no
 Volvo S60 back view_00045_crop_00.jpg 17 0 no
 Volvo S60 back view_00046_crop_00.jpg 17 3 no
 Volvo S60 back view_00047_crop_00.jpg 17 2 no
-Volvo S60 back view_00048_crop_00.jpg 17 1 no
+Volvo S60 back view_00048_crop_00.jpg 17 1 yes
 Volvo S60 back view_00049_crop_00.jpg 17 2 no
 Volvo S60 back view_00050_crop_00.jpg 17 0 yes
 Volvo S60 back view_00051_crop_00.jpg 17 0 no
@@ -10840,7 +10840,7 @@ Volvo S60 front view_00099_crop_00.jpg 17 1 no
 Volvo S90 back view_00000_crop_00.jpg 17 1 no
 Volvo S90 back view_00001_crop_00.jpg 17 2 no
 Volvo S90 back view_00002_crop_00.jpg 17 1 no
-Volvo S90 back view_00003_crop_00.jpg 17 1 no
+Volvo S90 back view_00003_crop_00.jpg 17 9 yes
 Volvo S90 back view_00004_crop_00.jpg 17 0 no
 Volvo S90 back view_00005_crop_00.jpg 17 1 no
 Volvo S90 back view_00006_crop_00.jpg 17 2 no
@@ -11305,7 +11305,7 @@ Volvo XC60 front view_00007_crop_00.jpg 17 1 no
 Volvo XC60 front view_00008_crop_00.jpg 17 1 no
 Volvo XC60 front view_00009_crop_00.jpg 17 1 no
 Volvo XC60 front view_00010_crop_00.jpg 17 0 no
-Volvo XC60 front view_00011_crop_00.jpg 17 1 no
+Volvo XC60 front view_00011_crop_00.jpg 17 2 yes
 Volvo XC60 front view_00012_crop_00.jpg 17 0 yes
 Volvo XC60 front view_00013_crop_00.jpg 17 0 no
 Volvo XC60 front view_00014_crop_00.jpg 17 1 no
@@ -11358,7 +11358,7 @@ Volvo XC60 front view_00062_crop_00.jpg 17 1 no
 Volvo XC60 front view_00063_crop_00.jpg 17 1 no
 Volvo XC60 front view_00064_crop_00.jpg 17 1 no
 Volvo XC60 front view_00065_crop_00.jpg 17 3 no
-Volvo XC60 front view_00066_crop_00.jpg 17 1 no
+Volvo XC60 front view_00066_crop_00.jpg 17 2 yes
 Volvo XC60 front view_00067_crop_00.jpg 17 0 no
 Volvo XC60 front view_00068_crop_00.jpg 17 3 no
 Volvo XC60 front view_00069_crop_00.jpg 17 0 no
@@ -11594,7 +11594,7 @@ Subaru Forester back view_00015_crop_00.jpg 14 0 no
 Subaru Forester back view_00016_crop_00.jpg 14 4 no
 Subaru Forester back view_00017_crop_00.jpg 14 2 no
 Subaru Forester back view_00018_crop_00.jpg 14 0 no
-Subaru Forester back view_00019_crop_00.jpg 14 1 no
+Subaru Forester back view_00019_crop_00.jpg 14 0 yes
 Subaru Forester back view_00020_crop_00.jpg 14 4 no
 Subaru Forester back view_00021_crop_00.jpg 14 0 no
 Subaru Forester back view_00022_crop_00.jpg 14 0 no
@@ -11699,7 +11699,7 @@ Subaru Forester front view_00029_crop_00.jpg 14 4 no
 Subaru Forester front view_00030_crop_00.jpg 14 2 no
 Subaru Forester front view_00031_crop_00.jpg 14 0 yes
 Subaru Forester front view_00032_crop_00.jpg 14 1 no
-Subaru Forester front view_00033_crop_00.jpg 14 4 no
+Subaru Forester front view_00033_crop_00.jpg 14 9 yes
 Subaru Forester front view_00034_crop_00.jpg 14 0 no
 Subaru Forester front view_00035_crop_00.jpg 14 4 no
 Subaru Forester front view_00036_crop_00.jpg 14 4 no
@@ -11882,7 +11882,7 @@ Subaru Outback front view_00022_crop_00.jpg 14 1 no
 Subaru Outback front view_00023_crop_00.jpg 14 3 no
 Subaru Outback front view_00024_crop_00.jpg 14 1 yes
 Subaru Outback front view_00025_crop_00.jpg 14 0 yes
-Subaru Outback front view_00026_crop_00.jpg 14 1 no
+Subaru Outback front view_00026_crop_00.jpg 14 9 yes
 Subaru Outback front view_00027_crop_00.jpg 14 4 no
 Subaru Outback front view_00028_crop_00.jpg 14 1 no
 Subaru Outback front view_00029_crop_00.jpg 14 2 no
@@ -11919,7 +11919,7 @@ Subaru Outback front view_00063_crop_00.jpg 14 4 no
 Subaru Outback front view_00064_crop_00.jpg 14 1 no
 Subaru Outback front view_00065_crop_00.jpg 14 1 no
 Subaru Outback front view_00066_crop_00.jpg 14 3 yes
-Subaru Outback front view_00068_crop_00.jpg 14 4 no
+Subaru Outback front view_00068_crop_00.jpg 14 0 yes
 Subaru Outback front view_00069_crop_00.jpg 14 1 no
 Subaru Outback front view_00070_crop_00.jpg 14 4 no
 Subaru Outback front view_00071_crop_00.jpg 14 1 no
@@ -11957,7 +11957,7 @@ Subaru WRX STI back view_00006_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00007_crop_00.jpg 14 0 no
 Subaru WRX STI back view_00008_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00009_crop_00.jpg 14 4 no
-Subaru WRX STI back view_00010_crop_00.jpg 14 4 no
+Subaru WRX STI back view_00010_crop_00.jpg 14 4 yes
 Subaru WRX STI back view_00011_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00012_crop_00.jpg 14 9 yes
 Subaru WRX STI back view_00013_crop_00.jpg 14 4 no
@@ -11977,7 +11977,7 @@ Subaru WRX STI back view_00026_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00027_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00028_crop_00.jpg 14 0 no
 Subaru WRX STI back view_00030_crop_00.jpg 14 4 no
-Subaru WRX STI back view_00031_crop_00.jpg 14 4 no
+Subaru WRX STI back view_00031_crop_00.jpg 14 9 yes
 Subaru WRX STI back view_00032_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00034_crop_00.jpg 14 0 no
 Subaru WRX STI back view_00036_crop_00.jpg 14 3 no
@@ -11988,13 +11988,13 @@ Subaru WRX STI back view_00040_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00041_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00042_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00044_crop_00.jpg 14 4 no
-Subaru WRX STI back view_00045_crop_00.jpg 14 4 no
+Subaru WRX STI back view_00045_crop_00.jpg 14 4 yes
 Subaru WRX STI back view_00047_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00048_crop_00.jpg 14 3 yes
 Subaru WRX STI back view_00050_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00051_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00053_crop_00.jpg 14 0 no
-Subaru WRX STI back view_00054_crop_00.jpg 14 4 no
+Subaru WRX STI back view_00054_crop_00.jpg 14 4 yes
 Subaru WRX STI back view_00057_crop_00.jpg 14 1 no
 Subaru WRX STI back view_00058_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00059_crop_00.jpg 14 4 no
@@ -12005,7 +12005,7 @@ Subaru WRX STI back view_00064_crop_00.jpg 14 2 no
 Subaru WRX STI back view_00066_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00067_crop_00.jpg 14 3 yes
 Subaru WRX STI back view_00068_crop_00.jpg 14 4 no
-Subaru WRX STI back view_00069_crop_00.jpg 14 4 no
+Subaru WRX STI back view_00069_crop_00.jpg 14 4 yes
 Subaru WRX STI back view_00071_crop_00.jpg 14 2 no
 Subaru WRX STI back view_00072_crop_00.jpg 14 4 no
 Subaru WRX STI back view_00073_crop_00.jpg 14 4 no
@@ -12065,7 +12065,7 @@ Subaru WRX STI front view_00032_crop_00.jpg 14 0 no
 Subaru WRX STI front view_00033_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00034_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00035_crop_00.jpg 14 4 no
-Subaru WRX STI front view_00036_crop_00.jpg 14 4 no
+Subaru WRX STI front view_00036_crop_00.jpg 14 9 yes
 Subaru WRX STI front view_00037_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00038_crop_00.jpg 14 0 yes
 Subaru WRX STI front view_00039_crop_00.jpg 14 4 no
@@ -12097,7 +12097,7 @@ Subaru WRX STI front view_00066_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00067_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00068_crop_00.jpg 14 0 no
 Subaru WRX STI front view_00069_crop_00.jpg 14 4 yes
-Subaru WRX STI front view_00071_crop_00.jpg 14 4 no
+Subaru WRX STI front view_00071_crop_00.jpg 14 4 yes
 Subaru WRX STI front view_00072_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00073_crop_00.jpg 14 4 no
 Subaru WRX STI front view_00074_crop_00.jpg 14 2 no
@@ -12233,7 +12233,7 @@ Subaru WRX front view_00020_crop_00.jpg 14 0 no
 Subaru WRX front view_00021_crop_00.jpg 14 1 no
 Subaru WRX front view_00022_crop_00.jpg 14 4 no
 Subaru WRX front view_00023_crop_00.jpg 14 0 no
-Subaru WRX front view_00025_crop_00.jpg 14 4 no
+Subaru WRX front view_00025_crop_00.jpg 14 4 yes
 Subaru WRX front view_00026_crop_00.jpg 14 3 no
 Subaru WRX front view_00027_crop_00.jpg 14 3 yes
 Subaru WRX front view_00028_crop_00.jpg 14 4 no
@@ -12254,7 +12254,7 @@ Subaru WRX front view_00045_crop_00.jpg 14 4 no
 Subaru WRX front view_00046_crop_00.jpg 14 4 no
 Subaru WRX front view_00047_crop_00.jpg 14 4 no
 Subaru WRX front view_00048_crop_00.jpg 14 4 no
-Subaru WRX front view_00050_crop_00.jpg 14 4 no
+Subaru WRX front view_00050_crop_00.jpg 14 4 yes
 Subaru WRX front view_00051_crop_00.jpg 14 2 no
 Subaru WRX front view_00052_crop_00.jpg 14 4 yes
 Subaru WRX front view_00053_crop_00.jpg 14 4 no
@@ -12320,7 +12320,7 @@ Subaru XV back view_00015_crop_00.jpg 14 0 no
 Subaru XV back view_00016_crop_00.jpg 14 3 no
 Subaru XV back view_00017_crop_00.jpg 14 2 yes
 Subaru XV back view_00018_crop_00.jpg 14 1 no
-Subaru XV back view_00019_crop_00.jpg 14 4 no
+Subaru XV back view_00019_crop_00.jpg 14 4 yes
 Subaru XV back view_00020_crop_00.jpg 14 3 no
 Subaru XV back view_00021_crop_00.jpg 14 0 yes
 Subaru XV back view_00022_crop_00.jpg 14 0 no
@@ -12449,8 +12449,8 @@ Subaru XV front view_00065_crop_00.jpg 14 1 no
 Subaru XV front view_00066_crop_00.jpg 14 8 yes
 Subaru XV front view_00067_crop_00.jpg 14 1 no
 Subaru XV front view_00068_crop_00.jpg 14 1 no
-Subaru XV front view_00070_crop_00.jpg 14 4 no
-Subaru XV front view_00071_crop_00.jpg 14 4 no
+Subaru XV front view_00070_crop_00.jpg 14 0 yes
+Subaru XV front view_00071_crop_00.jpg 14 4 yes
 Subaru XV front view_00072_crop_00.jpg 14 1 no
 Subaru XV front view_00073_crop_00.jpg 14 3 no
 Subaru XV front view_00074_crop_00.jpg 14 1 no
@@ -12812,7 +12812,7 @@ BMW 5 Series front view_00059_crop_00.jpg 7 0 no
 BMW 5 Series front view_00060_crop_00.jpg 7 1 no
 BMW 5 Series front view_00061_crop_00.jpg 7 3 no
 BMW 5 Series front view_00062_crop_00.jpg 7 1 no
-BMW 5 Series front view_00063_crop_00.jpg 7 4 no
+BMW 5 Series front view_00063_crop_00.jpg 7 4 yes
 BMW 5 Series front view_00064_crop_00.jpg 7 0 no
 BMW 5 Series front view_00065_crop_00.jpg 7 2 no
 BMW 5 Series front view_00066_crop_00.jpg 7 2 no
@@ -13185,7 +13185,7 @@ BMW X1 front view_00074_crop_00.jpg 7 4 no
 BMW X1 front view_00075_crop_00.jpg 7 1 no
 BMW X1 front view_00076_crop_00.jpg 7 7 yes
 BMW X1 front view_00077_crop_00.jpg 7 1 no
-BMW X1 front view_00078_crop_00.jpg 7 1 no
+BMW X1 front view_00078_crop_00.jpg 7 1 yes
 BMW X1 front view_00079_crop_00.jpg 7 4 no
 BMW X1 front view_00080_crop_00.jpg 7 1 no
 BMW X1 front view_00081_crop_00.jpg 7 0 no
@@ -13204,7 +13204,7 @@ BMW X1 front view_00094_crop_00.jpg 7 0 no
 BMW X1 front view_00095_crop_00.jpg 7 7 yes
 BMW X1 front view_00096_crop_00.jpg 7 2 no
 BMW X1 front view_00097_crop_00.jpg 7 0 no
-BMW X1 front view_00098_crop_00.jpg 7 1 no
+BMW X1 front view_00098_crop_00.jpg 7 9 yes
 BMW X1 front view_00099_crop_00.jpg 7 0 no
 BMW X3 back view_00000_crop_00.jpg 7 0 no
 BMW X3 back view_00001_crop_00.jpg 7 4 no
@@ -13334,7 +13334,7 @@ BMW X3 front view_00036_crop_00.jpg 7 0 no
 BMW X3 front view_00037_crop_00.jpg 7 2 yes
 BMW X3 front view_00038_crop_00.jpg 7 1 no
 BMW X3 front view_00039_crop_00.jpg 7 0 no
-BMW X3 front view_00040_crop_00.jpg 7 1 no
+BMW X3 front view_00040_crop_00.jpg 7 9 yes
 BMW X3 front view_00041_crop_00.jpg 7 0 yes
 BMW X3 front view_00042_crop_00.jpg 7 1 no
 BMW X3 front view_00043_crop_00.jpg 7 1 no
@@ -13753,7 +13753,7 @@ Volkswagen Passat front view_00089_crop_00.jpg 21 1 no
 Volkswagen Passat front view_00090_crop_00.jpg 21 2 no
 Volkswagen Passat front view_00091_crop_00.jpg 21 1 no
 Volkswagen Passat front view_00092_crop_00.jpg 21 2 no
-Volkswagen Passat front view_00093_crop_00.jpg 21 4 no
+Volkswagen Passat front view_00093_crop_00.jpg 21 1 yes
 Volkswagen Passat front view_00094_crop_00.jpg 21 1 no
 Volkswagen Passat front view_00095_crop_00.jpg 21 4 no
 Volkswagen Passat front view_00096_crop_00.jpg 21 1 yes
@@ -14011,7 +14011,7 @@ Volkswagen Scirocco back view_00075_crop_00.jpg 21 3 no
 Volkswagen Scirocco back view_00076_crop_00.jpg 21 4 no
 Volkswagen Scirocco back view_00077_crop_00.jpg 21 1 no
 Volkswagen Scirocco back view_00078_crop_00.jpg 21 1 no
-Volkswagen Scirocco back view_00079_crop_00.jpg 21 4 no
+Volkswagen Scirocco back view_00079_crop_00.jpg 21 4 yes
 Volkswagen Scirocco back view_00080_crop_00.jpg 21 4 no
 Volkswagen Scirocco back view_00081_crop_00.jpg 21 0 no
 Volkswagen Scirocco back view_00083_crop_00.jpg 21 3 no
@@ -14289,7 +14289,7 @@ Volkswagen Tiguan Allspace Luxury front view_00084_crop_00.jpg 21 1 no
 Volkswagen Tiguan Allspace Luxury front view_00086_crop_00.jpg 21 1 no
 Volkswagen Tiguan Allspace Luxury front view_00088_crop_00.jpg 21 1 no
 Volkswagen Tiguan Allspace Luxury front view_00089_crop_00.jpg 21 2 no
-Volkswagen Tiguan Allspace Luxury front view_00090_crop_00.jpg 21 4 no
+Volkswagen Tiguan Allspace Luxury front view_00090_crop_00.jpg 21 4 yes
 Volkswagen Tiguan Allspace Luxury front view_00091_crop_00.jpg 21 0 no
 Volkswagen Tiguan Allspace Luxury front view_00092_crop_00.jpg 21 1 no
 Volkswagen Tiguan Allspace Luxury front view_00093_crop_00.jpg 21 1 no
@@ -14609,13 +14609,13 @@ Audi A4 front view_00015_crop_00.jpg 8 0 no
 Audi A4 front view_00016_crop_00.jpg 8 3 no
 Audi A4 front view_00017_crop_00.jpg 8 2 no
 Audi A4 front view_00018_crop_00.jpg 8 1 no
-Audi A4 front view_00019_crop_00.jpg 8 4 no
+Audi A4 front view_00019_crop_00.jpg 8 4 yes
 Audi A4 front view_00020_crop_00.jpg 8 4 no
 Audi A4 front view_00021_crop_00.jpg 8 9 yes
 Audi A4 front view_00022_crop_00.jpg 8 2 no
 Audi A4 front view_00023_crop_00.jpg 8 1 no
 Audi A4 front view_00024_crop_00.jpg 8 3 no
-Audi A4 front view_00025_crop_00.jpg 8 1 no
+Audi A4 front view_00025_crop_00.jpg 8 2 yes
 Audi A4 front view_00026_crop_00.jpg 8 1 no
 Audi A4 front view_00028_crop_00.jpg 8 4 no
 Audi A4 front view_00029_crop_00.jpg 8 2 no
@@ -14818,7 +14818,7 @@ Audi A5 front view_00043_crop_00.jpg 8 3 no
 Audi A5 front view_00045_crop_00.jpg 8 2 no
 Audi A5 front view_00046_crop_00.jpg 8 4 no
 Audi A5 front view_00047_crop_00.jpg 8 0 no
-Audi A5 front view_00048_crop_00.jpg 8 4 no
+Audi A5 front view_00048_crop_00.jpg 8 4 yes
 Audi A5 front view_00049_crop_00.jpg 8 0 no
 Audi A5 front view_00050_crop_00.jpg 8 1 no
 Audi A5 front view_00051_crop_00.jpg 8 1 no
@@ -15015,7 +15015,7 @@ Audi Q2 front view_00070_crop_00.jpg 8 1 no
 Audi Q2 front view_00071_crop_00.jpg 8 3 no
 Audi Q2 front view_00072_crop_00.jpg 8 1 no
 Audi Q2 front view_00073_crop_00.jpg 8 9 yes
-Audi Q2 front view_00074_crop_00.jpg 8 4 no
+Audi Q2 front view_00074_crop_00.jpg 8 4 yes
 Audi Q2 front view_00075_crop_00.jpg 8 3 no
 Audi Q2 front view_00076_crop_00.jpg 8 0 no
 Audi Q2 front view_00077_crop_00.jpg 8 0 no
@@ -15104,7 +15104,7 @@ Audi Q3 back view_00060_crop_00.jpg 8 0 no
 Audi Q3 back view_00061_crop_00.jpg 8 0 no
 Audi Q3 back view_00062_crop_00.jpg 8 0 no
 Audi Q3 back view_00063_crop_00.jpg 8 1 no
-Audi Q3 back view_00064_crop_00.jpg 8 1 no
+Audi Q3 back view_00064_crop_00.jpg 8 1 yes
 Audi Q3 back view_00065_crop_00.jpg 8 1 no
 Audi Q3 back view_00066_crop_00.jpg 8 0 no
 Audi Q3 back view_00067_crop_00.jpg 8 0 no
@@ -15157,7 +15157,7 @@ Audi Q3 front view_00016_crop_00.jpg 8 0 no
 Audi Q3 front view_00017_crop_00.jpg 8 0 no
 Audi Q3 front view_00018_crop_00.jpg 8 3 yes
 Audi Q3 front view_00019_crop_00.jpg 8 0 no
-Audi Q3 front view_00020_crop_00.jpg 8 1 no
+Audi Q3 front view_00020_crop_00.jpg 8 2 yes
 Audi Q3 front view_00021_crop_00.jpg 8 4 no
 Audi Q3 front view_00022_crop_00.jpg 8 0 no
 Audi Q3 front view_00023_crop_00.jpg 8 0 no
@@ -15214,7 +15214,7 @@ Audi Q3 front view_00078_crop_00.jpg 8 1 no
 Audi Q3 front view_00079_crop_00.jpg 8 7 yes
 Audi Q3 front view_00080_crop_00.jpg 8 4 no
 Audi Q3 front view_00081_crop_00.jpg 8 0 no
-Audi Q3 front view_00082_crop_00.jpg 8 4 no
+Audi Q3 front view_00082_crop_00.jpg 8 9 yes
 Audi Q3 front view_00083_crop_00.jpg 8 3 no
 Audi Q3 front view_00084_crop_00.jpg 8 2 yes
 Audi Q3 front view_00085_crop_00.jpg 8 1 no
@@ -15546,7 +15546,7 @@ MG HS front view_00059_crop_00.jpg 19 0 yes
 MG HS front view_00060_crop_00.jpg 19 3 no
 MG HS front view_00061_crop_00.jpg 19 1 no
 MG HS front view_00062_crop_00.jpg 19 3 no
-MG HS front view_00063_crop_00.jpg 19 1 no
+MG HS front view_00063_crop_00.jpg 19 2 yes
 MG HS front view_00064_crop_00.jpg 19 3 no
 MG HS front view_00065_crop_00.jpg 19 1 no
 MG HS front view_00066_crop_00.jpg 19 3 no
@@ -15986,7 +15986,7 @@ MG MG7 front view_00014_crop_00.jpg 19 6 yes
 MG MG7 front view_00015_crop_00.jpg 19 3 no
 MG MG7 front view_00018_crop_00.jpg 19 0 no
 MG MG7 front view_00019_crop_00.jpg 19 1 no
-MG MG7 front view_00020_crop_00.jpg 19 1 no
+MG MG7 front view_00020_crop_00.jpg 19 6 yes
 MG MG7 front view_00021_crop_00.jpg 19 1 no
 MG MG7 front view_00022_crop_00.jpg 19 1 no
 MG MG7 front view_00023_crop_00.jpg 19 3 no
@@ -16262,7 +16262,7 @@ Chevrolet Captiva front view_00079_crop_00.jpg 10 1 no
 Chevrolet Captiva front view_00080_crop_00.jpg 10 1 no
 Chevrolet Captiva front view_00082_crop_00.jpg 10 2 no
 Chevrolet Captiva front view_00083_crop_00.jpg 10 1 no
-Chevrolet Captiva front view_00084_crop_00.jpg 10 1 no
+Chevrolet Captiva front view_00084_crop_00.jpg 10 1 yes
 Chevrolet Captiva front view_00085_crop_00.jpg 10 2 no
 Chevrolet Captiva front view_00086_crop_00.jpg 10 0 no
 Chevrolet Captiva front view_00087_crop_00.jpg 10 0 no
@@ -16307,7 +16307,7 @@ Chevrolet Colorado back view_00027_crop_00.jpg 10 3 no
 Chevrolet Colorado back view_00028_crop_00.jpg 10 2 no
 Chevrolet Colorado back view_00029_crop_00.jpg 10 1 no
 Chevrolet Colorado back view_00030_crop_00.jpg 10 3 no
-Chevrolet Colorado back view_00031_crop_00.jpg 10 4 no
+Chevrolet Colorado back view_00031_crop_00.jpg 10 4 yes
 Chevrolet Colorado back view_00032_crop_00.jpg 10 1 no
 Chevrolet Colorado back view_00033_crop_00.jpg 10 1 no
 Chevrolet Colorado back view_00034_crop_00.jpg 10 1 no
@@ -16321,7 +16321,7 @@ Chevrolet Colorado back view_00041_crop_00.jpg 10 4 no
 Chevrolet Colorado back view_00043_crop_00.jpg 10 0 no
 Chevrolet Colorado back view_00044_crop_00.jpg 10 3 yes
 Chevrolet Colorado back view_00045_crop_00.jpg 10 1 no
-Chevrolet Colorado back view_00046_crop_00.jpg 10 4 no
+Chevrolet Colorado back view_00046_crop_00.jpg 10 4 yes
 Chevrolet Colorado back view_00047_crop_00.jpg 10 1 no
 Chevrolet Colorado back view_00049_crop_00.jpg 10 3 yes
 Chevrolet Colorado back view_00050_crop_00.jpg 10 4 no
@@ -16344,7 +16344,7 @@ Chevrolet Colorado back view_00070_crop_00.jpg 10 3 no
 Chevrolet Colorado back view_00071_crop_00.jpg 10 0 no
 Chevrolet Colorado back view_00072_crop_00.jpg 10 1 no
 Chevrolet Colorado back view_00073_crop_00.jpg 10 0 no
-Chevrolet Colorado back view_00074_crop_00.jpg 10 1 no
+Chevrolet Colorado back view_00074_crop_00.jpg 10 1 yes
 Chevrolet Colorado back view_00076_crop_00.jpg 10 3 yes
 Chevrolet Colorado back view_00077_crop_00.jpg 10 0 no
 Chevrolet Colorado back view_00079_crop_00.jpg 10 0 no
@@ -16572,7 +16572,7 @@ Chevrolet Cruze front view_00021_crop_00.jpg 10 0 no
 Chevrolet Cruze front view_00022_crop_00.jpg 10 1 no
 Chevrolet Cruze front view_00024_crop_00.jpg 10 2 no
 Chevrolet Cruze front view_00025_crop_00.jpg 10 4 yes
-Chevrolet Cruze front view_00026_crop_00.jpg 10 4 no
+Chevrolet Cruze front view_00026_crop_00.jpg 10 4 yes
 Chevrolet Cruze front view_00027_crop_00.jpg 10 3 no
 Chevrolet Cruze front view_00028_crop_00.jpg 10 1 no
 Chevrolet Cruze front view_00030_crop_00.jpg 10 0 no
@@ -16596,7 +16596,7 @@ Chevrolet Cruze front view_00051_crop_00.jpg 10 3 no
 Chevrolet Cruze front view_00052_crop_00.jpg 10 0 no
 Chevrolet Cruze front view_00053_crop_00.jpg 10 3 no
 Chevrolet Cruze front view_00054_crop_00.jpg 10 1 no
-Chevrolet Cruze front view_00055_crop_00.jpg 10 4 no
+Chevrolet Cruze front view_00055_crop_00.jpg 10 2 yes
 Chevrolet Cruze front view_00056_crop_00.jpg 10 3 no
 Chevrolet Cruze front view_00057_crop_00.jpg 10 0 no
 Chevrolet Cruze front view_00058_crop_00.jpg 10 0 yes
@@ -16606,7 +16606,7 @@ Chevrolet Cruze front view_00062_crop_00.jpg 10 1 no
 Chevrolet Cruze front view_00063_crop_00.jpg 10 1 no
 Chevrolet Cruze front view_00064_crop_00.jpg 10 0 no
 Chevrolet Cruze front view_00065_crop_00.jpg 10 0 no
-Chevrolet Cruze front view_00066_crop_00.jpg 10 1 no
+Chevrolet Cruze front view_00066_crop_00.jpg 10 9 yes
 Chevrolet Cruze front view_00067_crop_00.jpg 10 0 no
 Chevrolet Cruze front view_00068_crop_00.jpg 10 1 no
 Chevrolet Cruze front view_00069_crop_00.jpg 10 0 no
@@ -16788,7 +16788,7 @@ Chevrolet Spark front view_00064_crop_00.jpg 10 1 no
 Chevrolet Spark front view_00065_crop_00.jpg 10 0 no
 Chevrolet Spark front view_00066_crop_00.jpg 10 1 no
 Chevrolet Spark front view_00067_crop_00.jpg 10 4 no
-Chevrolet Spark front view_00068_crop_00.jpg 10 4 no
+Chevrolet Spark front view_00068_crop_00.jpg 10 2 yes
 Chevrolet Spark front view_00069_crop_00.jpg 10 3 yes
 Chevrolet Spark front view_00070_crop_00.jpg 10 0 no
 Chevrolet Spark front view_00071_crop_00.jpg 10 4 no
@@ -16827,7 +16827,7 @@ Chevrolet Trailblazer back view_00006_crop_00.jpg 10 0 no
 Chevrolet Trailblazer back view_00008_crop_00.jpg 10 0 no
 Chevrolet Trailblazer back view_00009_crop_00.jpg 10 2 no
 Chevrolet Trailblazer back view_00010_crop_00.jpg 10 0 no
-Chevrolet Trailblazer back view_00011_crop_00.jpg 10 1 no
+Chevrolet Trailblazer back view_00011_crop_00.jpg 10 9 yes
 Chevrolet Trailblazer back view_00012_crop_00.jpg 10 0 no
 Chevrolet Trailblazer back view_00013_crop_00.jpg 10 3 no
 Chevrolet Trailblazer back view_00014_crop_00.jpg 10 2 no
@@ -17326,7 +17326,7 @@ Land Rover Discovery Sport front view_00099_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00000_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00001_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00002_crop_00.jpg 18 1 no
-Land Rover Discovery back view_00003_crop_00.jpg 18 1 no
+Land Rover Discovery back view_00003_crop_00.jpg 18 2 yes
 Land Rover Discovery back view_00004_crop_00.jpg 18 0 no
 Land Rover Discovery back view_00005_crop_00.jpg 18 0 no
 Land Rover Discovery back view_00006_crop_00.jpg 18 0 no
@@ -17336,7 +17336,7 @@ Land Rover Discovery back view_00009_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00010_crop_00.jpg 18 0 no
 Land Rover Discovery back view_00011_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00012_crop_00.jpg 18 1 no
-Land Rover Discovery back view_00014_crop_00.jpg 18 1 no
+Land Rover Discovery back view_00014_crop_00.jpg 18 2 yes
 Land Rover Discovery back view_00015_crop_00.jpg 18 1 yes
 Land Rover Discovery back view_00016_crop_00.jpg 18 1 no
 Land Rover Discovery back view_00017_crop_00.jpg 18 0 yes
@@ -17479,7 +17479,7 @@ Land Rover Discovery front view_00065_crop_00.jpg 18 1 no
 Land Rover Discovery front view_00066_crop_00.jpg 18 1 no
 Land Rover Discovery front view_00067_crop_00.jpg 18 0 no
 Land Rover Discovery front view_00068_crop_00.jpg 18 0 no
-Land Rover Discovery front view_00069_crop_00.jpg 18 1 no
+Land Rover Discovery front view_00069_crop_00.jpg 18 2 yes
 Land Rover Discovery front view_00070_crop_00.jpg 18 2 no
 Land Rover Discovery front view_00071_crop_00.jpg 18 0 no
 Land Rover Discovery front view_00072_crop_00.jpg 18 1 no
@@ -17487,7 +17487,7 @@ Land Rover Discovery front view_00073_crop_00.jpg 18 4 no
 Land Rover Discovery front view_00074_crop_01.jpg 18 0 no
 Land Rover Discovery front view_00075_crop_00.jpg 18 0 no
 Land Rover Discovery front view_00076_crop_00.jpg 18 3 no
-Land Rover Discovery front view_00077_crop_00.jpg 18 1 no
+Land Rover Discovery front view_00077_crop_00.jpg 18 9 yes
 Land Rover Discovery front view_00078_crop_00.jpg 18 1 no
 Land Rover Discovery front view_00080_crop_00.jpg 18 0 no
 Land Rover Discovery front view_00081_crop_00.jpg 18 0 yes
@@ -18012,7 +18012,7 @@ Peugeot 3008 back view_00093_crop_00.jpg 15 0 no
 Peugeot 3008 back view_00094_crop_00.jpg 15 2 no
 Peugeot 3008 back view_00095_crop_00.jpg 15 4 no
 Peugeot 3008 back view_00096_crop_00.jpg 15 3 no
-Peugeot 3008 back view_00097_crop_00.jpg 15 1 no
+Peugeot 3008 back view_00097_crop_00.jpg 15 1 yes
 Peugeot 3008 back view_00099_crop_00.jpg 15 0 no
 Peugeot 3008 front view_00000_crop_00.jpg 15 1 no
 Peugeot 3008 front view_00001_crop_00.jpg 15 1 no
@@ -18147,7 +18147,7 @@ Peugeot 5008 back view_00036_crop_00.jpg 15 1 no
 Peugeot 5008 back view_00037_crop_00.jpg 15 0 no
 Peugeot 5008 back view_00038_crop_00.jpg 15 1 no
 Peugeot 5008 back view_00039_crop_00.jpg 15 1 no
-Peugeot 5008 back view_00040_crop_00.jpg 15 1 no
+Peugeot 5008 back view_00040_crop_00.jpg 15 2 yes
 Peugeot 5008 back view_00041_crop_00.jpg 15 1 no
 Peugeot 5008 back view_00042_crop_00.jpg 15 2 no
 Peugeot 5008 back view_00044_crop_00.jpg 15 1 no
@@ -18178,7 +18178,7 @@ Peugeot 5008 back view_00073_crop_00.jpg 15 4 no
 Peugeot 5008 back view_00074_crop_00.jpg 15 0 no
 Peugeot 5008 back view_00075_crop_00.jpg 15 0 no
 Peugeot 5008 back view_00077_crop_00.jpg 15 1 no
-Peugeot 5008 back view_00078_crop_00.jpg 15 1 no
+Peugeot 5008 back view_00078_crop_00.jpg 15 2 yes
 Peugeot 5008 back view_00079_crop_00.jpg 15 4 no
 Peugeot 5008 back view_00081_crop_00.jpg 15 1 no
 Peugeot 5008 back view_00082_crop_00.jpg 15 5 yes
@@ -18319,7 +18319,7 @@ Peugeot 508 back view_00037_crop_00.jpg 15 3 no
 Peugeot 508 back view_00038_crop_00.jpg 15 0 no
 Peugeot 508 back view_00039_crop_00.jpg 15 0 no
 Peugeot 508 back view_00040_crop_00.jpg 15 1 no
-Peugeot 508 back view_00041_crop_00.jpg 15 1 no
+Peugeot 508 back view_00041_crop_00.jpg 15 0 yes
 Peugeot 508 back view_00042_crop_00.jpg 15 2 no
 Peugeot 508 back view_00043_crop_00.jpg 15 2 no
 Peugeot 508 back view_00044_crop_00.jpg 15 2 no
@@ -18359,7 +18359,7 @@ Peugeot 508 back view_00078_crop_00.jpg 15 0 no
 Peugeot 508 back view_00079_crop_00.jpg 15 0 yes
 Peugeot 508 back view_00080_crop_00.jpg 15 3 no
 Peugeot 508 back view_00081_crop_00.jpg 15 0 no
-Peugeot 508 back view_00082_crop_00.jpg 15 1 no
+Peugeot 508 back view_00082_crop_00.jpg 15 2 yes
 Peugeot 508 back view_00083_crop_00.jpg 15 0 no
 Peugeot 508 back view_00084_crop_00.jpg 15 3 yes
 Peugeot 508 back view_00085_crop_00.jpg 15 0 no
@@ -18629,7 +18629,7 @@ Peugeot Traveller front view_00098_crop_00.jpg 15 2 yes
 Porsche 718 Boxster back view_00000_crop_00.jpg 20 2 no
 Porsche 718 Boxster back view_00001_crop_00.jpg 20 1 no
 Porsche 718 Boxster back view_00002_crop_00.jpg 20 0 no
-Porsche 718 Boxster back view_00003_crop_00.jpg 20 4 no
+Porsche 718 Boxster back view_00003_crop_00.jpg 20 4 yes
 Porsche 718 Boxster back view_00004_crop_00.jpg 20 4 no
 Porsche 718 Boxster back view_00005_crop_00.jpg 20 2 no
 Porsche 718 Boxster back view_00006_crop_00.jpg 20 4 no
@@ -18728,7 +18728,7 @@ Porsche 718 Boxster front view_00005_crop_00.jpg 20 1 no
 Porsche 718 Boxster front view_00006_crop_00.jpg 20 0 no
 Porsche 718 Boxster front view_00007_crop_00.jpg 20 9 yes
 Porsche 718 Boxster front view_00008_crop_00.jpg 20 2 no
-Porsche 718 Boxster front view_00008_crop_01.jpg 20 1 no
+Porsche 718 Boxster front view_00008_crop_01.jpg 20 2 yes
 Porsche 718 Boxster front view_00009_crop_00.jpg 20 4 no
 Porsche 718 Boxster front view_00010_crop_00.jpg 20 3 no
 Porsche 718 Boxster front view_00011_crop_00.jpg 20 4 no
@@ -18847,7 +18847,7 @@ Porsche 911 back view_00037_crop_00.jpg 20 0 no
 Porsche 911 back view_00038_crop_00.jpg 20 1 no
 Porsche 911 back view_00039_crop_00.jpg 20 2 no
 Porsche 911 back view_00040_crop_00.jpg 20 1 no
-Porsche 911 back view_00041_crop_00.jpg 20 1 no
+Porsche 911 back view_00041_crop_00.jpg 20 4 yes
 Porsche 911 back view_00042_crop_00.jpg 20 0 no
 Porsche 911 back view_00044_crop_00.jpg 20 4 no
 Porsche 911 back view_00045_crop_00.jpg 20 1 no
@@ -19108,7 +19108,7 @@ Porsche Gran Turismo Panamera front view_00039_crop_00.jpg 20 2 no
 Porsche Gran Turismo Panamera front view_00040_crop_00.jpg 20 4 no
 Porsche Gran Turismo Panamera front view_00042_crop_00.jpg 20 0 no
 Porsche Gran Turismo Panamera front view_00043_crop_00.jpg 20 1 no
-Porsche Gran Turismo Panamera front view_00044_crop_00.jpg 20 1 no
+Porsche Gran Turismo Panamera front view_00044_crop_00.jpg 20 6 yes
 Porsche Gran Turismo Panamera front view_00045_crop_00.jpg 20 1 no
 Porsche Gran Turismo Panamera front view_00046_crop_00.jpg 20 1 yes
 Porsche Gran Turismo Panamera front view_00048_crop_00.jpg 20 0 no
@@ -19169,7 +19169,7 @@ Porsche Macan back view_00010_crop_00.jpg 20 1 no
 Porsche Macan back view_00013_crop_00.jpg 20 1 no
 Porsche Macan back view_00015_crop_00.jpg 20 0 yes
 Porsche Macan back view_00016_crop_00.jpg 20 1 no
-Porsche Macan back view_00017_crop_00.jpg 20 1 no
+Porsche Macan back view_00017_crop_00.jpg 20 2 yes
 Porsche Macan back view_00018_crop_00.jpg 20 4 no
 Porsche Macan back view_00019_crop_00.jpg 20 4 no
 Porsche Macan back view_00020_crop_00.jpg 20 0 no
@@ -19241,7 +19241,7 @@ Porsche Macan back view_00092_crop_00.jpg 20 4 no
 Porsche Macan back view_00094_crop_00.jpg 20 2 no
 Porsche Macan back view_00095_crop_00.jpg 20 4 no
 Porsche Macan back view_00096_crop_00.jpg 20 0 no
-Porsche Macan back view_00097_crop_00.jpg 20 1 no
+Porsche Macan back view_00097_crop_00.jpg 20 0 yes
 Porsche Macan back view_00098_crop_00.jpg 20 1 no
 Porsche Macan back view_00099_crop_00.jpg 20 0 no
 Porsche Macan front view_00000_crop_00.jpg 20 0 no
@@ -19697,7 +19697,7 @@ Nissan Navara front view_00064_crop_00.jpg 11 1 no
 Nissan Navara front view_00065_crop_00.jpg 11 2 no
 Nissan Navara front view_00066_crop_00.jpg 11 0 no
 Nissan Navara front view_00067_crop_00.jpg 11 4 yes
-Nissan Navara front view_00068_crop_00.jpg 11 1 no
+Nissan Navara front view_00068_crop_00.jpg 11 2 yes
 Nissan Navara front view_00069_crop_00.jpg 11 3 no
 Nissan Navara front view_00070_crop_00.jpg 11 0 yes
 Nissan Navara front view_00071_crop_00.jpg 11 0 no
@@ -20109,7 +20109,7 @@ Nissan X-Trail back view_00027_crop_00.jpg 11 0 no
 Nissan X-Trail back view_00028_crop_00.jpg 11 2 no
 Nissan X-Trail back view_00029_crop_00.jpg 11 0 no
 Nissan X-Trail back view_00030_crop_00.jpg 11 0 no
-Nissan X-Trail back view_00032_crop_00.jpg 11 4 no
+Nissan X-Trail back view_00032_crop_00.jpg 11 2 yes
 Nissan X-Trail back view_00033_crop_00.jpg 11 3 no
 Nissan X-Trail back view_00034_crop_00.jpg 11 3 no
 Nissan X-Trail back view_00035_crop_00.jpg 11 2 yes
@@ -20716,7 +20716,7 @@ Lexus IS back view_00083_crop_00.jpg 16 2 no
 Lexus IS back view_00084_crop_00.jpg 16 1 no
 Lexus IS back view_00085_crop_00.jpg 16 1 no
 Lexus IS back view_00086_crop_00.jpg 16 0 no
-Lexus IS back view_00087_crop_00.jpg 16 1 no
+Lexus IS back view_00087_crop_00.jpg 16 1 yes
 Lexus IS back view_00089_crop_00.jpg 16 2 no
 Lexus IS back view_00090_crop_00.jpg 16 0 yes
 Lexus IS back view_00091_crop_00.jpg 16 0 no
@@ -20774,7 +20774,7 @@ Lexus IS front view_00045_crop_00.jpg 16 4 yes
 Lexus IS front view_00046_crop_00.jpg 16 1 no
 Lexus IS front view_00047_crop_00.jpg 16 2 no
 Lexus IS front view_00048_crop_00.jpg 16 1 no
-Lexus IS front view_00049_crop_00.jpg 16 4 no
+Lexus IS front view_00049_crop_00.jpg 16 9 yes
 Lexus IS front view_00051_crop_00.jpg 16 1 no
 Lexus IS front view_00052_crop_00.jpg 16 9 yes
 Lexus IS front view_00053_crop_00.jpg 16 0 no
@@ -20791,7 +20791,7 @@ Lexus IS front view_00063_crop_00.jpg 16 1 no
 Lexus IS front view_00064_crop_00.jpg 16 1 no
 Lexus IS front view_00065_crop_00.jpg 16 0 no
 Lexus IS front view_00066_crop_00.jpg 16 0 no
-Lexus IS front view_00067_crop_00.jpg 16 1 no
+Lexus IS front view_00067_crop_00.jpg 16 1 yes
 Lexus IS front view_00068_crop_00.jpg 16 2 no
 Lexus IS front view_00069_crop_00.jpg 16 0 no
 Lexus IS front view_00070_crop_00.jpg 16 3 no
@@ -21304,7 +21304,7 @@ Suzuki Celerio front view_00025_crop_00.jpg 13 1 no
 Suzuki Celerio front view_00026_crop_00.jpg 13 2 yes
 Suzuki Celerio front view_00027_crop_00.jpg 13 3 no
 Suzuki Celerio front view_00028_crop_00.jpg 13 4 no
-Suzuki Celerio front view_00029_crop_00.jpg 13 4 no
+Suzuki Celerio front view_00029_crop_00.jpg 13 4 yes
 Suzuki Celerio front view_00031_crop_00.jpg 13 3 no
 Suzuki Celerio front view_00033_crop_00.jpg 13 4 no
 Suzuki Celerio front view_00034_crop_00.jpg 13 0 yes
@@ -21327,7 +21327,7 @@ Suzuki Celerio front view_00050_crop_00.jpg 13 7 yes
 Suzuki Celerio front view_00051_crop_00.jpg 13 3 no
 Suzuki Celerio front view_00052_crop_00.jpg 13 8 yes
 Suzuki Celerio front view_00053_crop_00.jpg 13 4 no
-Suzuki Celerio front view_00054_crop_00.jpg 13 4 no
+Suzuki Celerio front view_00054_crop_00.jpg 13 4 yes
 Suzuki Celerio front view_00055_crop_00.jpg 13 0 no
 Suzuki Celerio front view_00056_crop_00.jpg 13 3 no
 Suzuki Celerio front view_00057_crop_00.jpg 13 4 yes
@@ -21478,7 +21478,7 @@ Suzuki Ciaz front view_00022_crop_00.jpg 13 1 no
 Suzuki Ciaz front view_00023_crop_00.jpg 13 0 no
 Suzuki Ciaz front view_00024_crop_00.jpg 13 4 no
 Suzuki Ciaz front view_00025_crop_00.jpg 13 0 no
-Suzuki Ciaz front view_00026_crop_00.jpg 13 1 no
+Suzuki Ciaz front view_00026_crop_00.jpg 13 1 yes
 Suzuki Ciaz front view_00027_crop_00.jpg 13 4 no
 Suzuki Ciaz front view_00028_crop_00.jpg 13 0 no
 Suzuki Ciaz front view_00029_crop_00.jpg 13 1 no
@@ -21493,7 +21493,7 @@ Suzuki Ciaz front view_00037_crop_00.jpg 13 0 no
 Suzuki Ciaz front view_00038_crop_00.jpg 13 4 no
 Suzuki Ciaz front view_00039_crop_00.jpg 13 0 no
 Suzuki Ciaz front view_00040_crop_00.jpg 13 3 no
-Suzuki Ciaz front view_00042_crop_00.jpg 13 4 no
+Suzuki Ciaz front view_00042_crop_00.jpg 13 9 yes
 Suzuki Ciaz front view_00044_crop_00.jpg 13 0 no
 Suzuki Ciaz front view_00045_crop_00.jpg 13 3 yes
 Suzuki Ciaz front view_00047_crop_00.jpg 13 0 yes
@@ -21715,7 +21715,7 @@ Suzuki Ertiga front view_00078_crop_00.jpg 13 1 no
 Suzuki Ertiga front view_00079_crop_00.jpg 13 9 yes
 Suzuki Ertiga front view_00080_crop_00.jpg 13 1 no
 Suzuki Ertiga front view_00081_crop_00.jpg 13 2 no
-Suzuki Ertiga front view_00082_crop_00.jpg 13 4 no
+Suzuki Ertiga front view_00082_crop_00.jpg 13 4 yes
 Suzuki Ertiga front view_00083_crop_00.jpg 13 0 no
 Suzuki Ertiga front view_00084_crop_00.jpg 13 2 no
 Suzuki Ertiga front view_00085_crop_00.jpg 13 0 no

@@ -9,7 +9,7 @@ full_status_txt = '../annot/full_status.txt'
 
 # Load colors
 with open('../annot/cl_list.txt', 'r') as f:
-    colors = [line.strip() for line in f.readlines()[5]]
+    colors = [line.strip() for line in f.readlines()[:5]]
 
 # Function to load from full_pslabel.txt and create/update full_status.txt
 def load_and_create_status():
