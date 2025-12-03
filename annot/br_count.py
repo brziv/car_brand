@@ -1,14 +1,14 @@
 from collections import Counter
 import matplotlib.pyplot as plt
 
-with open("merged.txt", "r", encoding="utf-8") as merged:
+with open("train.txt", "r", encoding="utf-8") as merged:
     lines = [line.split() for line in merged]
 
-labels = [int(parts[-1]) for parts in lines]
+labels = [int(parts[-2]) for parts in lines]
 
 count = Counter(labels)
 
-with open("brand.txt", "r", encoding="utf-8") as synset:
+with open("br_list.txt", "r", encoding="utf-8") as synset:
     brands = [brand.strip() for brand in synset]
 
 for i, brand in enumerate(brands):
