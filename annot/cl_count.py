@@ -1,7 +1,7 @@
 from collections import Counter
 import matplotlib.pyplot as plt
 
-with open("train.txt", "r", encoding="utf-8") as merged:
+with open("full_label.txt", "r", encoding="utf-8") as merged:
     lines = [line.split() for line in merged]
 
 labels = [int(parts[-1]) for parts in lines]

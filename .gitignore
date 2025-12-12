@@ -6,4 +6,4 @@ colors_done/
 results/
 
 # files
-*.onnx
+*.onnxs

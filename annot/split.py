@@ -1,7 +1,7 @@
 from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit
 import numpy as np
 
-with open("full_label.txt", "r") as f:
+with open("fresh_label.txt", "r") as f:
     lines = [line.strip() for line in f]
 
 # Parse labels: assuming each line is "filename num1 num2"

@@ -7,24 +7,13 @@ from dataset import train_dataloader
 # config
 device = "cuda" if torch.cuda.is_available() else "cpu"
 num_classes_brand = 22
-num_classes_color = 10
+num_classes_color = 9
 max_steps = 50
 lr = 1e-4
 model_names = [
-    "convnext_tiny",   # 28.6M
-    "swin_t",          # 28.3M
-    "resnet50",        # 25.6M
-    "resnext50",       # 25.0M
-    "regnet_y_3_2gf",  # 19.4M
-    "regnet_x_3_2gf",  # 15.3M
-    "regnet_y_1_6gf",  # 11.2M
-    "regnet_x_1_6gf",  # 9.2M
-    "efficientnet_b2", # 9.1M
-    "densenet121",     # 8.0M
-    "efficientnet_b1", # 7.8M
-    "regnet_x_800mf",  # 7.3M
-    "regnet_y_800mf",  # 6.4M
-    "efficientnet_b0"  # 5.3M
+    "efficientnet_b0",
+    "efficientnet_v2_s",
+    "resnet50"
 ]
 
 # train one batch

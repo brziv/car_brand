@@ -4,7 +4,7 @@ from PIL import Image
 
 # Paths
 images_by_color_dir = '../colors_ps'
-full_pslabel_txt = '../annot/full_pslabel.txt'
+full_pslabel_txt = '../annot/result.txt'
 full_status_txt = '../annot/full_status.txt'
 
 # Load colors
@@ -16,10 +16,10 @@ def load_and_create_status():
     lines = []
     with open(full_pslabel_txt, 'r') as f:
         for line in f:
-            parts = line.strip().rsplit(' ', 2)  # split from right to handle spaces in img_name
-            if len(parts) == 3:
-                img_name, brand, color = parts
-                lines.append([img_name, brand, color, 'no'])
+            parts = line.strip().rsplit(' ', 1)  # split from right to handle spaces in img_name
+            if len(parts) == 2:
+                img_name, color = parts
+                lines.append([img_name, color, 'no'])
     
     # Write to full_status.txt
     with open(full_status_txt, 'w') as f:
@@ -35,16 +35,16 @@ else:
     status_data = []
     with open(full_status_txt, 'r') as f:
         for line in f:
-            parts = line.strip().rsplit(' ', 3)  # img_name brand color status
-            if len(parts) == 4:
+            parts = line.strip().rsplit(' ', 2)  # img_name color status
+            if len(parts) == 3:
                 status_data.append(parts)
 
 labels = {}
 statuses = {}
 for parts in status_data:
     img_name = parts[0]  # img_name (may have spaces)
-    color_label = int(parts[2])  # parts[1] is brand, parts[2] is color
-    status = parts[3]
+    color_label = int(parts[1])  # color
+    status = parts[2]
     labels[img_name] = color_label
     statuses[img_name] = status
 
@@ -56,10 +56,10 @@ def save_corrected_labels_and_status(img_name, new_label):
     lines = []
     with open(full_status_txt, 'r') as f:
         for line in f:
-            parts = line.strip().rsplit(' ', 3)  # img_name brand color status
+            parts = line.strip().rsplit(' ', 2)  # img_name color status
             if parts[0] == img_name:
-                parts[2] = str(new_label)  # update color label
-                parts[3] = 'yes'  # update status
+                parts[1] = str(new_label)  # update color label
+                parts[2] = 'yes'  # update status
             lines.append(' '.join(parts))
     
     with open(full_status_txt, 'w') as f:

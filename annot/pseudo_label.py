@@ -25,7 +25,7 @@ def run_clip_large(image_paths):
 
     clip_labels = {}
 
-    text_prompts = [f"a photograph of a car whose color is {label}" for label in LABELS]
+    text_prompts = [f"a photograph of a {label} car" for label in LABELS]
     with torch.no_grad():
         text_inputs = processor(text=text_prompts, return_tensors="pt", padding=True).to(DEVICE)
         text_features = model.get_text_features(**text_inputs)

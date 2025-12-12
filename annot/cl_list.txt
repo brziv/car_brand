@@ -7,4 +7,3 @@ cyan
 green
 orange
 yellow
-other

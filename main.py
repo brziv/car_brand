@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from torch.optim import lr_scheduler
 from model import get_model
 from dataset import train_dataloader, val_dataloader, test_dataloader
 from train import run_epoch
@@ -11,10 +12,13 @@ import os
 
 # config
 num_classes_brand = 22
-num_classes_color = 10
+num_classes_color = 9
 num_epochs = 50
 lr = 1e-4
-model_names = ["resnet50", "resnext50", "regnet_x_1_6gf", "regnet_y_1_6gf", "regnet_x_3_2gf", "regnet_y_3_2gf", "regnet_x_800mf", "regnet_y_800mf", "densenet121"]
+model_names = [
+    "efficientnet_b0",
+    "resnet50"
+]
 
 # early stopping
 patience = 5
@@ -30,6 +34,7 @@ for model_name in model_names:
     criterion_brand = nn.CrossEntropyLoss()
     criterion_color = nn.CrossEntropyLoss()
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
+    scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=3)
     
     best_val_loss = float("inf")
     no_improve = 0
@@ -71,6 +76,8 @@ for model_name in model_names:
         print(f"Epoch {epoch+1}/{num_epochs}")
         print(f"Train Loss: {train_loss:.4f}, Brand Acc: {train_acc_brand:.2f}%, Color Acc: {train_acc_color:.2f}%")
         print(f"Val Loss: {val_loss:.4f}, Brand Acc: {val_acc_brand:.2f}%, Color Acc: {val_acc_color:.2f}%\n")
+
+        scheduler.step(val_loss)
 
         # early stopping check
         if val_loss < best_val_loss:
