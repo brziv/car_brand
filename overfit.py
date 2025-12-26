@@ -12,7 +12,6 @@ max_steps = 50
 lr = 1e-4
 model_names = [
     "efficientnet_b0",
-    "efficientnet_v2_s",
     "resnet50"
 ]
 

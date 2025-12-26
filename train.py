@@ -2,7 +2,7 @@ from tqdm import tqdm
 import torch
 from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
 
-def run_epoch(model, dataloader, criterion_brand, criterion_color, optimizer=None, mode="Train"):
+def run_epoch(model, dataloader, criterion_brand, criterion_color, optimizer=None, mode="Train", num_classes_brand=None, num_classes_color=None):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     is_train = optimizer is not None
     model.train() if is_train else model.eval()
@@ -51,11 +51,21 @@ def run_epoch(model, dataloader, criterion_brand, criterion_color, optimizer=Non
     recall_brand = recall_score(all_labels_brand, all_preds_brand, average='macro', zero_division=0) * 100
     f1_brand = f1_score(all_labels_brand, all_preds_brand, average='macro', zero_division=0) * 100
 
-    precision_color = precision_score(all_labels_color, all_preds_color, average='weighted', zero_division=0) * 100
-    recall_color = recall_score(all_labels_color, all_preds_color, average='weighted', zero_division=0) * 100
-    f1_color = f1_score(all_labels_color, all_preds_color, average='weighted', zero_division=0) * 100
+    precision_color = precision_score(all_labels_color, all_preds_color, average='macro', zero_division=0) * 100
+    recall_color = recall_score(all_labels_color, all_preds_color, average='macro', zero_division=0) * 100
+    f1_color = f1_score(all_labels_color, all_preds_color, average='macro', zero_division=0) * 100
     
-    conf_matrix_brand = confusion_matrix(all_labels_brand, all_preds_brand)
-    conf_matrix_color = confusion_matrix(all_labels_color, all_preds_color)
+    # ensure confusion matrices include all classes
+    if num_classes_brand is not None:
+        labels_brand = list(range(num_classes_brand))
+        conf_matrix_brand = confusion_matrix(all_labels_brand, all_preds_brand, labels=labels_brand)
+    else:
+        conf_matrix_brand = confusion_matrix(all_labels_brand, all_preds_brand)
+
+    if num_classes_color is not None:
+        labels_color = list(range(num_classes_color))
+        conf_matrix_color = confusion_matrix(all_labels_color, all_preds_color, labels=labels_color)
+    else:
+        conf_matrix_color = confusion_matrix(all_labels_color, all_preds_color)
     
     return epoch_loss, epoch_acc_brand, epoch_acc_color, precision_brand, recall_brand, f1_brand, precision_color, recall_color, f1_color, conf_matrix_brand, conf_matrix_color

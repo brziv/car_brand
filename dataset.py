@@ -3,11 +3,10 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from PIL import Image
 
-batch_size = 64
+batch_size = 32
 img_dir = "images"
 train_path = "annot/train.txt"
 val_path = "annot/val.txt"
-test_path = "annot/test.txt"
 
 class CarDataset(Dataset):
     def __init__(self, img_dir, label_file, transform=None):
@@ -39,18 +38,21 @@ class CarDataset(Dataset):
         return img, brand_label, color_label
     
 train_transform = transforms.Compose([
-    # spatial
-    transforms.RandomResizedCrop(224, scale=(0.85, 1.0), ratio=(0.9, 1.1)),
-    transforms.RandomHorizontalFlip(),
-    transforms.RandomRotation(5),
-    # photometric
-    transforms.ColorJitter(
-        brightness=0.1,
-        contrast=0.1,
-        saturation=0.05,
-        hue=0.0
-    ),
-    transforms.GaussianBlur(kernel_size=3, sigma=(0.1, 0.5)),
+    transforms.Resize(256),
+    transforms.CenterCrop(224),
+
+    # transforms.RandomResizedCrop(224, scale=(0.85, 1.0), ratio=(0.9, 1.1)),
+    # transforms.RandomHorizontalFlip(),
+    # transforms.RandomRotation(5),
+
+    # transforms.ColorJitter(
+    #     brightness=0.1,
+    #     contrast=0.1,
+    #     saturation=0.05,
+    #     hue=0.0
+    # ),
+    # transforms.GaussianBlur(kernel_size=3, sigma=(0.1, 0.5)),
+
     transforms.ToTensor(),
     transforms.Normalize(
         mean=[0.485, 0.456, 0.406],
@@ -74,6 +76,3 @@ train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True
 
 val_dataset = CarDataset(img_dir, val_path, transform=val_transform)
 val_dataloader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
-
-test_dataset = CarDataset(img_dir, test_path, transform=val_transform)
-test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)

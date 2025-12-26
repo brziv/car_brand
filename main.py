@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from model import get_model
-from dataset import train_dataloader, val_dataloader, test_dataloader
+from dataset import train_dataloader, val_dataloader
 from train import run_epoch
 import matplotlib.pyplot as plt
 import json
@@ -16,8 +16,7 @@ num_classes_color = 9
 num_epochs = 50
 lr = 1e-4
 model_names = [
-    "efficientnet_b0",
-    "resnet50"
+    "efficientnet_b0"
 ]
 
 # early stopping
@@ -46,10 +45,10 @@ for model_name in model_names:
     # main loop
     for epoch in range(num_epochs):
         train_loss, train_acc_brand, train_acc_color, train_prec_brand, train_rec_brand, train_f1_brand, train_prec_color, train_rec_color, train_f1_color, _, _ = run_epoch(
-            model, train_dataloader, criterion_brand, criterion_color, optimizer, mode="Train"
+            model, train_dataloader, criterion_brand, criterion_color, optimizer, mode="Train", num_classes_brand=num_classes_brand, num_classes_color=num_classes_color
         )
         val_loss, val_acc_brand, val_acc_color, val_prec_brand, val_rec_brand, val_f1_brand, val_prec_color, val_rec_color, val_f1_color, _, _ = run_epoch(
-            model, val_dataloader, criterion_brand, criterion_color, optimizer=None, mode="Validation"
+            model, val_dataloader, criterion_brand, criterion_color, optimizer=None, mode="Validation", num_classes_brand=num_classes_brand, num_classes_color=num_classes_color
         )
 
         # save metrics to dict
@@ -91,28 +90,29 @@ for model_name in model_names:
                 print(f"Early stopping triggered after {epoch+1} epochs for {model_name}.")
                 break
 
-    # test
-    test_loss, test_acc_brand, test_acc_color, test_prec_brand, test_rec_brand, test_f1_brand, test_prec_color, test_rec_color, test_f1_color, test_cm_brand, test_cm_color = run_epoch(
-        model, test_dataloader, criterion_brand, criterion_color, optimizer=None, mode="Test"
+    # load best model and evaluate on val
+    model.load_state_dict(torch.load(f"results/{model_name}_best.pth"))
+    val_loss, val_acc_brand, val_acc_color, val_prec_brand, val_rec_brand, val_f1_brand, val_prec_color, val_rec_color, val_f1_color, val_cm_brand, val_cm_color = run_epoch(
+        model, val_dataloader, criterion_brand, criterion_color, optimizer=None, mode="Validation", num_classes_brand=num_classes_brand, num_classes_color=num_classes_color
     )
-    print(f"Test Loss: {test_loss:.4f}, Brand Acc: {test_acc_brand:.2f}%, Color Acc: {test_acc_color:.2f}%")
+    print(f"Final Val Loss: {val_loss:.4f}, Brand Acc: {val_acc_brand:.2f}%, Color Acc: {val_acc_color:.2f}%")
 
-    # save test metrics
-    test_metrics = {
-        "loss": test_loss,
-        "acc_brand": test_acc_brand,
-        "acc_color": test_acc_color,
-        "precision_brand": test_prec_brand,
-        "recall_brand": test_rec_brand,
-        "f1_brand": test_f1_brand,
-        "precision_color": test_prec_color,
-        "recall_color": test_rec_color,
-        "f1_color": test_f1_color,
-        "confusion_matrix_brand": test_cm_brand.tolist(),
-        "confusion_matrix_color": test_cm_color.tolist()
+    # save final val metrics
+    final_val_metrics = {
+        "loss": val_loss,
+        "acc_brand": val_acc_brand,
+        "acc_color": val_acc_color,
+        "precision_brand": val_prec_brand,
+        "recall_brand": val_rec_brand,
+        "f1_brand": val_f1_brand,
+        "precision_color": val_prec_color,
+        "recall_color": val_rec_color,
+        "f1_color": val_f1_color,
+        "confusion_matrix_brand": val_cm_brand.tolist(),
+        "confusion_matrix_color": val_cm_color.tolist()
     }
-    with open(f"results/{model_name}_test_metrics.json", "w") as f:
-        json.dump(test_metrics, f, indent=4)
+    with open(f"results/{model_name}_val_metrics.json", "w") as f:
+        json.dump(final_val_metrics, f, indent=4)
 
     # plot metrics
     fig, axes = plt.subplots(3, 3, figsize=(15, 12))
@@ -134,7 +134,7 @@ for model_name in model_names:
 
     # plot confusion matrix
     plt.figure(figsize=(10, 8))
-    sns.heatmap(test_cm_brand, annot=True, fmt="d", cmap="Blues")
+    sns.heatmap(val_cm_brand, annot=True, fmt="d", cmap="Blues")
     plt.title("Confusion Matrix Brand")
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
@@ -142,13 +142,13 @@ for model_name in model_names:
     plt.close()
 
     plt.figure(figsize=(10, 8))
-    sns.heatmap(test_cm_color, annot=True, fmt="d", cmap="Blues")
+    sns.heatmap(val_cm_color, annot=True, fmt="d", cmap="Blues")
     plt.title("Confusion Matrix Color")
     plt.xlabel("Predicted")
     plt.ylabel("Actual")
     plt.savefig(f"results/{model_name}_cmatrix_color.png")
     plt.close()
-    
+
     # Clear memory
     del model
     torch.cuda.empty_cache()

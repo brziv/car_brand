@@ -1,49 +1,65 @@
-from iterstrat.ml_stratifiers import MultilabelStratifiedShuffleSplit
+from sklearn.model_selection import StratifiedShuffleSplit
 import numpy as np
+from collections import defaultdict
 
-with open("fresh_label.txt", "r") as f:
+with open("clean_label.txt", "r") as f:
     lines = [line.strip() for line in f]
 
-# Parse labels: assuming each line is "filename num1 num2"
-y = []
-valid_lines = []
+# Group by prefix
+prefix_to_lines = defaultdict(list)
+prefix_to_label = {}
 for line in lines:
     parts = line.split()
     if len(parts) >= 3:
         try:
+            filename = parts[0]
+            prefix = filename.split('_')[0]
             num1 = int(parts[-2])
             num2 = int(parts[-1])
-            y.append([num1, num2])
-            valid_lines.append(line)
-        except ValueError:
-            # Skip lines where num1 or num2 are not integers
+            prefix_to_lines[prefix].append(line)
+            if prefix not in prefix_to_label:
+                prefix_to_label[prefix] = [num1, num2]
+        except (ValueError, IndexError):
             continue
-    else:
-        continue
 
-y = np.array(y)
-lines = valid_lines
+# Prepare data for splitting prefixes
+all_prefixes = list(prefix_to_label.keys())
+prefix_brands = [prefix_to_label[p][0] for p in all_prefixes]
 
-# Use MultilabelStratifiedShuffleSplit for train/val/test
-# First, split train (80%) and temp (20%)
-msss = MultilabelStratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
-for train_idx, temp_idx in msss.split(lines, y):
-    train_samples = [lines[i] for i in train_idx]
-    temp_samples = [lines[i] for i in temp_idx]
-    temp_y = y[temp_idx]
+# Group prefixes by type
+group1_prefixes = [p for p in all_prefixes if p.isdigit()]
+group2_prefixes = [p for p in all_prefixes if not p.isdigit()]
 
-# Then split temp into val (50%) and test (50%)
-msss_val = MultilabelStratifiedShuffleSplit(n_splits=1, test_size=0.5, random_state=42)
-for val_idx, test_idx in msss_val.split(temp_samples, temp_y):
-    val_samples = [temp_samples[i] for i in val_idx]
-    test_samples = [temp_samples[i] for i in test_idx]
+# Group2 all to train
+train_prefixes = []
+train_prefixes = group2_prefixes.copy()
+
+# Split group1 prefixes stratified on brand
+if group1_prefixes:
+    group1_brands = [prefix_to_label[p][0] for p in group1_prefixes]
+    # Split group1 into train and val
+    sss = StratifiedShuffleSplit(n_splits=1, test_size=0.3, random_state=0)
+    for train_idx, val_idx in sss.split(group1_prefixes, group1_brands):
+        group1_train_prefixes = [group1_prefixes[i] for i in train_idx]
+        val_prefixes = [group1_prefixes[i] for i in val_idx]
+    
+    # Add group1 train prefixes to train_prefixes
+    train_prefixes.extend(group1_train_prefixes)
+else:
+    val_prefixes = []
+
+# Now assign samples
+train_samples = []
+for p in train_prefixes:
+    train_samples.extend(prefix_to_lines[p])
+val_samples = []
+for p in val_prefixes:
+    val_samples.extend(prefix_to_lines[p])
 
 # Save splits
 with open("train.txt", "w") as f:
     f.write("\n".join(train_samples))
 with open("val.txt", "w") as f:
     f.write("\n".join(val_samples))
-with open("test.txt", "w") as f:
-    f.write("\n".join(test_samples))
 
 print("Done.")

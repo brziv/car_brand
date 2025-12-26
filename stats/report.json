@@ -1,0 +1,50 @@
+{
+  "total_images": 12715,
+  "brands": {
+    "n_brands": 22,
+    "min": 133,
+    "max": 1203,
+    "mean": 577.9545454545455,
+    "median": 333.0,
+    "n_brands_lt_50": 0,
+    "n_brands_lt_100": 0,
+    "top_5_share_percent": 42.69760125835627,
+    "top_10_share_percent": 74.84860401101062
+  },
+  "colors": {
+    "n_colors": 9,
+    "min": 121,
+    "max": 4452,
+    "mean": 1412.7777777777778,
+    "median": 409.0,
+    "top_3_share_percent": 79.47306331104994,
+    "n_colors_lt_100": 0
+  },
+  "pairs": {
+    "n_pairs": 150,
+    "n_pairs_lt_20": 49
+  },
+  "brand_color_matrix": {
+    "n_rows": 22,
+    "n_cols": 9,
+    "npz": "results_stats/brand_color_counts.npz",
+    "csv": "results_stats/brand_color_matrix.csv",
+    "heatmap": "results_stats/brand_color_heatmap.png"
+  },
+  "brand_color_small_stats": {
+    "brands_le2_colors": 0,
+    "colors_le2_brands": 1
+  },
+  "resolutions": {
+    "area_min": 7540,
+    "area_max": 909792,
+    "area_median": 119756.0,
+    "width_min": 101,
+    "width_max": 891,
+    "width_median": 361.0,
+    "height_min": 65,
+    "height_max": 1279,
+    "height_median": 333.0
+  },
+  "missing_images_for_resolution": 0
+}
